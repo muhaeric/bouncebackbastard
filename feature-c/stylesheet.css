@@ -1,0 +1,12 @@
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#red {
+  animation: flicker 2s ease alternate infinite;
+}
