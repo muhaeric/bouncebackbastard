@@ -10,3 +10,7 @@
 #red {
   animation: flicker 2s ease alternate infinite;
 }
+
+.element {
+  animation: flicker $randomNumber alternate infinite;
+}
