@@ -1,0 +1,22 @@
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#red {
+  animation: flicker 2s ease alternate infinite;
+}
+
+.element {
+  animation: flicker $randomNumber alternate infinite;
+}
+
+$randomNumber: random(5);
+
+.thing {
+  animation-duration: $randomNumber + s;
+}
