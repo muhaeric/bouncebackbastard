@@ -14,3 +14,15 @@
 .element {
   animation: flicker $randomNumber alternate infinite;
 }
+
+:root {
+  --main-color: red;
+}
+
+#my-element {
+  color: var(--main-color);
+}
+
+#my-element:hover {
+  --main-color: blue;
+}
