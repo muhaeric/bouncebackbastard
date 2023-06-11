@@ -16,7 +16,7 @@
 }
 
 :root {
-  --main-color: red;
+  --main-color: background: linear-gradient(rgb(198, 210, 200), rgb(195, 176, 212), rgb(187, 140, 223), rgb(176, 102, 233), rgb(161, 56, 242));;
 }
 
 #my-element {
